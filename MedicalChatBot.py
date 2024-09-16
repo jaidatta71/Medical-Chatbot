@@ -7,7 +7,7 @@
 import openai
 from openai import OpenAI
 
-client = OpenAI(api_key = "sk-proj-lygXGXe80eivbeibrIUBERVIBrGY3J")
+client = OpenAI(api_key = "sk-proj-ER3f94bRGEnuonIUERBOB34Y3J")
 
 assistant = client.beta.assistants.create(
   name="A-ZMedicalCure",
